@@ -51,8 +51,8 @@ This metadata include instruments involved in passive acoustic data collection. 
 
 ### **Category I:  Mission and Project**{: style="color: crimson"}
 
-|	Metadata name	|	Definition	|	Data type \[1\]	|	Unit	|	Authority	|
-| ---------- | ---------- | :----------: | :----------: | :---------- |
+|	Metadata name	|	Definition	|	Data type \[[^1]\]	|	Unit	|	Authority	|
+| ---------- | ---------- | :----------------------: | :----------: | :---------- |
 |	project_ID	|	ID number of mission or project, if exists	|S |		|		|
 |	project_name	|	Name of mission or project	|	S	|		|		|
 |	project_abstract	|	Free text description of the mission or project, its purpose, scientific objectives and area of operation.  Other instruments and experiments within the mission or project which may or may not relate directly to the passive acoustic data can be included	|	S	|		|		|
@@ -135,13 +135,10 @@ This metadata include instruments involved in passive acoustic data collection. 
 |	supplemental_info	|	Additional info	|		|		|		|
 										
 										
-	[1] “S” denotes the entry is a text value, while “N” denotes the entry is a numeric value.									
-
-
 ### **Category II:  Platform**{: style="color: crimson"}
 
-|	Metadata name	|	Definition	|	Data type	|	Units	|
-|	------------------------------	|	------------------------------	|	------------------------------	|	------------------------------	|
+|	Metadata name	|	Definition	|	Data type  \[[^1]\]	|	Units	|	Authority	|
+| ---------- | ---------- | ---------- | ---------- | :---------- |
 |	vessel_id	|	ID number of the vessel, if it exists	|	S	|		|
 |	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		|
 |	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		|
@@ -174,8 +171,8 @@ This metadata include instruments involved in passive acoustic data collection. 
 
 ### **Category III:  Recording Equipment (sensor, pre-amplifier, A/D converter, additional signal conditioning)**{: style="color: crimson"}
 
-Metadata name	|	Definition	|	Data type	|	Units	|	Authority	|
-------------------------------	|	------------------------------	|	:------------------------------:	|	------------------------------	|	------------------------------	|
+Metadata name	|	Definition	|	Data type  \[[^1]\]	|	Units	|	Authority	
+| ---------- | ---------- | ---------- | ---------- | :---------- |
 hydrophone_type	|	pressure sensor or vector sensor	|	S	|		|		|
 hydrophone_id	|	ID number of the hydrophone if it exists	|		|		|		|
 hydrophone_maker_model	|	Maker or manufacture of the hydrophone that was used to collect passive acoustic data	|		|		|		|
@@ -1500,6 +1497,6 @@ Mention of a commercial company or product does not constitute an endorsement by
 
 - [**The PDF version of this document**](https://github.com/ioos/passive-acoustics/blob/gh-pages/_docs/guan-et-al-2014-pam-metadata-convention-v1-0.pdf?raw=true)
 
-
+[^1]: “S” denotes the entry is a text value, while “N” denotes the entry is a numeric value.							
 
 &nbsp; <br>
