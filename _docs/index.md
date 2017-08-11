@@ -137,42 +137,42 @@ This metadata include instruments involved in passive acoustic data collection. 
 										
 ### **Category II:  Platform**{: style="color: crimson"}
 
-|	Metadata name	|	Definition	|	Data type  \[[^1]\]	|	Units	|	Authority	|
-| ---------- | ---------- | ---------- | ---------- | :---------- |
-|	vessel_id	|	ID number of the vessel, if it exists	|	S	|		|
-|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		|
-|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		|
-|		|		|		|		|
-|	glider_name	|	Name of the glider that was used to collect passive acoustic data. 	|	S	|		|
-|	glider_id	|	ID number of the glider, if it exists	|	S	|		|
-|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		|
-|	platform_detail	|	Free field provide detailed description of the platform, include number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		|
-|		|		|		|		|
-|	drifting_buoy_name	|	Name of the drifting buoy that was used to collect passive acoustic data. 	|	S	|		|
-|	drifting_buoy_id	|	ID number of the drifting buoy, if it exists	|	S	|		|
-|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		|
-|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		|
-|		|		|		|		|
-|	moored_buoy_name	|	Name of the moored buoy that was used to collect passive acoustic data. 	|	S	|		|
-|	moored_buoy_id	|	ID number of the moored buoy, if it exists	|	S	|		|
-|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		|
-|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		|
-|		|		|		|		|
-|	suspended_platform_name	|	Name of the suspended platform that was used to collect passive acoustic data. 	|	S	|		|
-|	suspended_platform_id	|	ID number of the suspended platform, if it exists	|	S	|		|
-|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		|
-|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		|
-|		|		|		|		|
-|	bottom_mounted_platform_name	|	Name of the bottom-mounted platform that was used to collect passive acoustic data. 	|	S	|		|
-|	bottom_mounted_platform_id	|	ID number of the bottom-mounted platform, if it exists	|	S	|		|
-|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		|
-|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		|
+|	Metadata name	|	Definition	|	Data type  \[[^1]\]	
+| ---------- | ---------- | :----------: 
+|	vessel_id	|	ID number of the vessel, if it exists	|	S	|		
+|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		
+|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
+|		|		|		|		
+|	glider_name	|	Name of the glider that was used to collect passive acoustic data. 	|	S	|		
+|	glider_id	|	ID number of the glider, if it exists	|	S	|		
+|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		
+|	platform_detail	|	Free field provide detailed description of the platform, include number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
+|		|		|		|		
+|	drifting_buoy_name	|	Name of the drifting buoy that was used to collect passive acoustic data. 	|	S	|		
+|	drifting_buoy_id	|	ID number of the drifting buoy, if it exists	|	S	|		
+|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		
+|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
+|		|		|		|		
+|	moored_buoy_name	|	Name of the moored buoy that was used to collect passive acoustic data. 	|	S	|		
+|	moored_buoy_id	|	ID number of the moored buoy, if it exists	|	S	|		
+|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		
+|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
+|		|		|		|		
+|	suspended_platform_name	|	Name of the suspended platform that was used to collect passive acoustic data. 	|	S	|		
+|	suspended_platform_id	|	ID number of the suspended platform, if it exists	|	S	|		
+|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		
+|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
+|		|		|		|		
+|	bottom_mounted_platform_name	|	Name of the bottom-mounted platform that was used to collect passive acoustic data. 	|	S	|		
+|	bottom_mounted_platform_id	|	ID number of the bottom-mounted platform, if it exists	|	S	|		
+|	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		
+|	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
 
 
 ### **Category III:  Recording Equipment (sensor, pre-amplifier, A/D converter, additional signal conditioning)**{: style="color: crimson"}
 
 Metadata name	|	Definition	|	Data type  \[[^1]\]	|	Units	|	Authority	
-| ---------- | ---------- | ---------- | ---------- | :---------- |
+| ---------- | ---------- | :----------: | ---------- | :---------- |
 hydrophone_type	|	pressure sensor or vector sensor	|	S	|		|		|
 hydrophone_id	|	ID number of the hydrophone if it exists	|		|		|		|
 hydrophone_maker_model	|	Maker or manufacture of the hydrophone that was used to collect passive acoustic data	|		|		|		|
