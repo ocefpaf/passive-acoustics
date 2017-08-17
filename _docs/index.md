@@ -1482,7 +1482,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
 
 | Date |  Version | Notes 
 | :------ | :------------:| :---------                                                      
-|August 2014 | 1.0 | 
+|August 2014 | 1.0 
                                                            
  
 ### **Acknowledgments**{: style="color: crimson"}
