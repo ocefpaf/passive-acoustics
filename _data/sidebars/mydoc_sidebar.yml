@@ -4,7 +4,7 @@ entries:
 - title: sidebar
   product: Passive Acoustics Documentation
   levels: three
-  version: 
+  version:
   folders:
 
   - title:
@@ -20,7 +20,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: "Metadata Convention for Passive Acoustic Recording"
+  - title: Metadata Convention for Passive Acoustic Recording
     output: web, pdf
 
     folderitems:
@@ -35,44 +35,44 @@ entries:
 
       subfolders:
 
-      - title: "Summary of Metadata Categories"
+      - title: Summary of Metadata Categories
         output: web
 
         subfolderitems:
 
-        - title: "Mission / project metadata"
+        - title: Mission / project metadata
           url: /index.html#mission--project-metadata
           output: web
 
-        - title: "Platform metadata"
+        - title: Platform metadata
           url: /index.html#platform-metadata
           output: web
 
-        - title: "Recording equipment metadata"
+        - title: Recording equipment metadata
           url: /index.html#recording-equipment-metadata
           output: web
 
-      - title: "Definition of Attributes for Passive Acoustic Recordings Metadata"
+      - title: Definition of Attributes for Passive Acoustic Recordings Metadata
         output: web
 
         subfolderitems:
 
-        - title: "Category I: Mission and Project"
+        - title: Category I: Mission and Project
           url: /index.html#category-i--mission-and-project
           output: web
 
-        - title: "Category II: Platform"
+        - title: Category II: Platform
           url: /index.html#category-ii--platform
           output: web
 
-        - title: "Category III: Recording Equipment"
+        - title: Category III: Recording Equipment
           url: /index.html#category-iii--recording-equipment-sensor-pre-amplifier-ad-converter-additional-signal-conditioning
           output: web
 
-    - title: "ISO 19115 XML Template for NOAA Passive Acoustic Recordings"
+    - title: ISO 19115 XML Template for NOAA Passive Acoustic Recordings
       url: /index.html#iso-19115-xml-template-for-noaa-passive-acoustic-recordings
       output: web
 
-    - title: "Reference Information"
+    - title: Reference Information
       url: /index.html#reference-information
       output: web
