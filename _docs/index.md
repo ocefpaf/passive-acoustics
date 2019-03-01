@@ -2,9 +2,6 @@
 title: A Metadata Convention for Passive Acoustic Recording
 keywords: sample homepage
 tags: [getting_started]
-#sidebar: home_sidebar
-sidebar: mydoc_sidebar
-topnav: topnav
 toc: false
 #permalink: index.html
 summary: This document presents metadata that supports the mission of the National Oceanic and Atmospheric Administration (NOAA) for acquisition, archiving, and dissemination of ocean passive acoustic data.
@@ -20,9 +17,9 @@ summary: This document presents metadata that supports the mission of the Nation
 
 Passive acoustics is a rapidly emerging field of marine biology that since recently has received a lot of attention from fisheries scientists and managers. Passive Acoustic Monitoring (PAM) can serve as a useful monitoring tool that complements traditional survey methodologies (aerial, visual, trawl, etc.).
 
-Many biologists that are interested in documenting marine animals and fish habitat and following their movements and behavior have used acoustic tags. However, because marine mammals and many fish species are highly adapted for producing and perceiving sounds in the ocean, these low-frequency (<10 kHz), species-specific sounds can be used as natural acoustic tags, and passive acoustic approach (monitoring sound-producing fish species with hydrophones) show great promise for gathering data in a noninvasive and continuous manner. 
+Many biologists that are interested in documenting marine animals and fish habitat and following their movements and behavior have used acoustic tags. However, because marine mammals and many fish species are highly adapted for producing and perceiving sounds in the ocean, these low-frequency (<10 kHz), species-specific sounds can be used as natural acoustic tags, and passive acoustic approach (monitoring sound-producing fish species with hydrophones) show great promise for gathering data in a noninvasive and continuous manner.
 
-Passive acoustic methods include the use of low-frequency hydrophones, digital recorders, autonomous recording sonobuoys and data loggers, and towed hydrophone arrays to record fish sounds. These monitoring and recording devices can continuously gather data in conditions that would otherwise limit survey effort. The data gathered from these units provides scientists with information on the acoustic presence of a species of interest with known species specific signals. 
+Passive acoustic methods include the use of low-frequency hydrophones, digital recorders, autonomous recording sonobuoys and data loggers, and towed hydrophone arrays to record fish sounds. These monitoring and recording devices can continuously gather data in conditions that would otherwise limit survey effort. The data gathered from these units provides scientists with information on the acoustic presence of a species of interest with known species specific signals.
 
 In the light of increasing activities around passive acoustic monitoring and mounting demands to incorporating PAM data into habitat modeling and marine spatial planning, the U.S. IOOS, among other goals, aim to improve interoperability of PAM data among various data centers by means of enhanced and standardized acoustic metadata.
 
@@ -133,12 +130,12 @@ This metadata include instruments involved in passive acoustic data collection. 
 |	maximum_sensor_depth	|	Maximum sensor depth in m	|		|		|		|
 |		|		|		|		|		|
 |	supplemental_info	|	Additional info	|		|		|		|
-										
-										
+
+
 ### **Category II:  Platform**{: style="color: crimson"}
 
-|	Metadata name	|	Definition	|	Data type  \[[^1]\]	
-| ---------- | ---------- | :----------: 
+|	Metadata name	|	Definition	|	Data type  \[[^1]\]
+| ---------- | ---------- | :----------:
 |	vessel_id	|	ID number of the vessel, if it exists	|	S	|		
 |	acoustic_sampling_start_date	|	Start data of acoustic data collection in ISO 8601 format including local time zone.  For example, a local time of 18:00 on the 24th of October 2008 would be represented as 2008-10-24T08:00:00Z+10 (local).	|		|		
 |	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
@@ -171,7 +168,7 @@ This metadata include instruments involved in passive acoustic data collection. 
 
 ### **Category III:  Recording Equipment (sensor, pre-amplifier, A/D converter, additional signal conditioning)**{: style="color: crimson"}
 
-Metadata name	|	Definition	|	Data type  \[[^1]\]	|	Units	|	Authority	
+Metadata name	|	Definition	|	Data type  \[[^1]\]	|	Units	|	Authority
 | ---------- | ---------- | :----------: | ---------- | :---------- |
 hydrophone_type	|	pressure sensor or vector sensor	|	S	|		|		|
 hydrophone_id	|	ID number of the hydrophone if it exists	|		|		|		|
@@ -861,7 +858,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
           </gmi:instrument>
           <!-- DEVICE -->
           <gmi:instrument>
-            <!-- 
+            <!--
               device_maker_model
               device_function              
               other_info
@@ -886,7 +883,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
       </gmi:platform>
       <!-- GLIDER -->
       <gmi:platform>
-        <!-- 
+        <!--
           glider_name,
           acoustic_sampling_start_date,
         -->
@@ -978,7 +975,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
           </gmi:instrument>
           <!-- DEVICE -->
           <gmi:instrument>
-            <!-- 
+            <!--
               device_maker_model
               device_function              
               other_info
@@ -1002,7 +999,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
       </gmi:platform>
       <!-- DRIFITING BUOY -->
       <gmi:platform>
-        <!--drifting_buoy_name, 
+        <!--drifting_buoy_name,
         acoustic_sampling_start_date-->
         <gmi:MI_Platform>
           <gmi:identifier>
@@ -1092,7 +1089,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
           </gmi:instrument>
           <!-- DEVICE -->
           <gmi:instrument>
-            <!-- 
+            <!--
               device_maker_model
               device_function              
               other_info
@@ -1205,7 +1202,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
           </gmi:instrument>
           <!-- DEVICE -->
           <gmi:instrument>
-            <!-- 
+            <!--
               device_maker_model
               device_function              
               other_info
@@ -1317,7 +1314,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
           </gmi:instrument>
           <!-- DEVICE -->
           <gmi:instrument>
-            <!-- 
+            <!--
               device_maker_model
               device_function              
               other_info
@@ -1430,7 +1427,7 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
           </gmi:instrument>
           <!-- DEVICE -->
           <gmi:instrument>
-            <!-- 
+            <!--
               device_maker_model
               device_function              
               other_info
@@ -1480,11 +1477,11 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
 
 ### **Revisions**{: style="color: crimson"}
 
-| Date |  Version | Notes 
+| Date |  Version | Notes
 | :------ | :------------:| :---------                                                      
-|August 2014 | 1.0 
-                                                           
- 
+|August 2014 | 1.0
+
+
 ### **Acknowledgments**{: style="color: crimson"}
 
 Special thanks go to Sofia VanParijs (NOAA, NEFSC), Jason Gedamke (NOAA, NMFS OS&T) for comments and suggestions that considerably improved this document content.  We also appreciate the support from Jolie Harrison (NOAA, NMFS OPR), Zdenka Willis (US IOOS), Charlie Alexander (IOOS), and Dr. Christopher Fox (NGDC) for supporting this joint effort.

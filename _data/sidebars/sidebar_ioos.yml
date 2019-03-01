@@ -57,15 +57,15 @@ entries:
 
         subfolderitems:
 
-        - title: Category I: Mission and Project
+        - title: "Category I: Mission and Project"
           url: /index.html#category-i--mission-and-project
           output: web
 
-        - title: Category II: Platform
+        - title: "Category II: Platform"
           url: /index.html#category-ii--platform
           output: web
 
-        - title: Category III: Recording Equipment
+        - title: "Category III: Recording Equipment"
           url: /index.html#category-iii--recording-equipment-sensor-pre-amplifier-ad-converter-additional-signal-conditioning
           output: web
 
