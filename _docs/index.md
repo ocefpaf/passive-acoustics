@@ -13,7 +13,7 @@ summary: This document presents metadata that supports the mission of the Nation
  -->
 
 
-## **Introduction**{: style="color: crimson"}
+## **Introduction**
 
 Passive acoustics is a rapidly emerging field of marine biology that since recently has received a lot of attention from fisheries scientists and managers. Passive Acoustic Monitoring (PAM) can serve as a useful monitoring tool that complements traditional survey methodologies (aerial, visual, trawl, etc.).
 
@@ -23,30 +23,30 @@ Passive acoustic methods include the use of low-frequency hydrophones, digital r
 
 In the light of increasing activities around passive acoustic monitoring and mounting demands to incorporating PAM data into habitat modeling and marine spatial planning, the U.S. IOOS, among other goals, aim to improve interoperability of PAM data among various data centers by means of enhanced and standardized acoustic metadata.
 
-## **Background**{: style="color: crimson"}
+## **Background**
 
 Metadata is data that describes data.  A metadata convention is a systemic set of metadata attributes that have been developed to describe a particular genre or type of data.  This document attempts to create a host metadata list that is necessary to describe passive acoustic datasets from various platforms and sensors from NOAA’s different line offices.  The metadata list will further be used to develop a “machine-readable” metadata template to be tested among passive acoustic data holders and the community.  Hopefully it will eventually be adopted as the NOAA metadata standard for passive acoustic recordings.  The terms “metadata convention” and “metadata standard” are often used interchangeable.  This document details a “convention” which may be followed, as against a “standard” that is more stringent and must be adhered to.  The goal of the eventual development of such a standard will facilitate discovery and exchange of passive acoustic recording data while ensuring its archivability and longevity.
 
 
-## **Summary of Metadata Categories**{: style="color: crimson"}
+## **Summary of Metadata Categories**
 
-### **Mission / project metadata**{: style="color: crimson"}
+### **Mission / project metadata**
 
 This is the metadata that gives a high level description of the overarching initiative (e.g., mission, project, ocean observing system) under which passive acoustic data are collected.
 
-### **Platform metadata**{: style="color: crimson"}
+### **Platform metadata**
 
 This metadata set includes vessel, glider, drifting buoy, and fixed platform (buoy-moored sensor, suspended sensor, and bottom-mounted sensor, etc.).  This metadata describes the platform used to collect passive acoustic data.
 
-### **Recording equipment metadata**{: style="color: crimson"}
+### **Recording equipment metadata**
 
 This metadata include instruments involved in passive acoustic data collection.  The category includes instrumentation, which describes a collection of the instrument package, and each separate component of the instrument package: hydrophone / sensor, pre-amplifier, analogue/digital converter, and recorder.
 
 -----------------------------
 
-## **Definition of Attributes for Passive Acoustic Recordings Metadata**{: style="color: crimson"}
+## **Definition of Attributes for Passive Acoustic Recordings Metadata**
 
-### **Category I:  Mission and Project**{: style="color: crimson"}
+### **Category I:  Mission and Project**
 
 |	Metadata name	|	Definition	|	Data type \[[^1]\]	|	Unit	|	Authority	|
 | ---------- | ---------- | :----------------------: | :----------: | :---------- |
@@ -132,7 +132,7 @@ This metadata include instruments involved in passive acoustic data collection. 
 |	supplemental_info	|	Additional info	|		|		|		|
 
 
-### **Category II:  Platform**{: style="color: crimson"}
+### **Category II:  Platform**
 
 |	Metadata name	|	Definition	|	Data type  \[[^1]\]
 | ---------- | ---------- | :----------:
@@ -166,7 +166,7 @@ This metadata include instruments involved in passive acoustic data collection. 
 |	platform_detail	|	Free field provide detailed description of the platform, include tow speed (for towed hydrophone or hydrophone array), number of sensors, array directivity in housing, array geometry, array beamwidth, platform noise signature, platform synchronization, and platform manufacture date, etc. 	|		|		
 
 
-### **Category III:  Recording Equipment (sensor, pre-amplifier, A/D converter, additional signal conditioning)**{: style="color: crimson"}
+### **Category III:  Recording Equipment (sensor, pre-amplifier, A/D converter, additional signal conditioning)**
 
 Metadata name	|	Definition	|	Data type  \[[^1]\]	|	Units	|	Authority
 | ---------- | ---------- | :----------: | ---------- | :---------- |
@@ -200,7 +200,7 @@ device_function	|	Functionality of the device	|		|		|		|
 other_info	|	Additional info related to the device, such as signal gain, noise floor, etc.	|	N	|		|		|
 
 
-## **ISO 19115 XML Template for NOAA Passive Acoustic Recordings**{: style="color: crimson"}
+## **ISO 19115 XML Template for NOAA Passive Acoustic Recordings**
 
 
 ```
@@ -1456,9 +1456,9 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
 ```
 
 
-## **Reference Information**{: style="color: crimson"}
+## **Reference Information**
 
-### **Contribution**{: style="color: crimson"}
+### **Contribution**
 
 | Name  | Association  |
 |:---|:---|
@@ -1469,28 +1469,28 @@ other_info	|	Additional info related to the device, such as signal gain, noise f
 
 
 
-### **Validation**{: style="color: crimson"}
+### **Validation**
 
 | Name  | Association  |
 |:---|:---|
 |**Zdenka Willis** | Director of U.S. Integrated Ocean Observing System Program Office |
 
-### **Revisions**{: style="color: crimson"}
+### **Revisions**
 
 | Date |  Version | Notes
 | :------ | :------------:| :---------                                                      
 |August 2014 | 1.0
 
 
-### **Acknowledgments**{: style="color: crimson"}
+### **Acknowledgments**
 
 Special thanks go to Sofia VanParijs (NOAA, NEFSC), Jason Gedamke (NOAA, NMFS OS&T) for comments and suggestions that considerably improved this document content.  We also appreciate the support from Jolie Harrison (NOAA, NMFS OPR), Zdenka Willis (US IOOS), Charlie Alexander (IOOS), and Dr. Christopher Fox (NGDC) for supporting this joint effort.
 
-### **Endorsement Disclaimer**{: style="color: crimson"}
+### **Endorsement Disclaimer**
 
 Mention of a commercial company or product does not constitute an endorsement by NOAA. Use of information from this publication for publicity or advertising purposes concerning proprietary products or the tests of such products is not authorized.
 
-### **Citation**{: style="color: crimson"}
+### **Citation**
 
 - [**The PDF version of this document**](https://github.com/ioos/passive-acoustics/blob/gh-pages/_docs/guan-et-al-2014-pam-metadata-convention-v1-0.pdf?raw=true)
 
