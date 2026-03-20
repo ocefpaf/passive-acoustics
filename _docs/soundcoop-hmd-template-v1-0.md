@@ -12,7 +12,7 @@ summary: This is version 1.0 of the SoundCoop hybrid millidecade (HMD) netCDF sp
 
 | Version | Description                                                                                    | Date       |
 |:--------|:-----------------------------------------------------------------------------------------------|:-----------|
-| **1.0** | **SoundCoop hybrid millidecade (HMD) Version** <br>[Initial version](./SoundCoop-HMD-template-v1-0.html) | 2025-05-20 |
+| **1.0** | **SoundCoop hybrid millidecade (HMD) Version** <br>[Initial version](./soundcoop-hmd-template-v1-0.html) | 2025-05-20 |
 
 ## Notes/Caveats
 
@@ -22,12 +22,7 @@ summary: This is version 1.0 of the SoundCoop hybrid millidecade (HMD) netCDF sp
 * attributes with a different role in the NCEI Templates; for example, the attribute **`_FillValue`** is **required** by the NCEI Template; however, in the IOOS Profile it is listed as **recommended** only;  conversely the opposite is possible as well
 * attributes with otherwise modified or further qualified meanings/definitions
 
-1. The NCEI Templates in turn build off of the ACDD and CF conventions.  Some attributes in the IOOS Profile originate from ACDD and CF (consult the `Convention` field in the table to determine the origin of each attribute).  Links to each are below:
-* [NOAA NCEI NetCDF Templates 2.0](https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html)
-* [Attribute Convention for Data Discovery 1.3](http://wiki.esipfed.org/index.php/Attribute_Convention_for_Data_Discovery_1-3)
-* [Climate and Forecast Conventions (CF) 1.10](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.10/cf-conventions.html)
-
-1. In the SoundCoop hybrid millidecade (HMD) Specification doesn't define **required** or **recommended** attributes as it is an attempt to synthesize existing standards into a specific implementation for HMD.
+1. The SoundCoop hybrid millidecade (HMD) Specification doesn't currently define **required** or **recommended** attributes. This standard largely synthesizes existing standards into a specific implementation for sound level metrics.
 
 ## Gold Standard Example Datasets
 * [Example dataset](https://storage.googleapis.com/noaa-passive-bioacoustic/ioos/products/sound_level_metrics/esons/esons_sc_m37_20210314-20210426_hmd/data/ESONS.SC.M37_437221.1.80000_20210314_DAILY_MILLIDEC_MinRes.nc)
