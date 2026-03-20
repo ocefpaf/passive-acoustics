@@ -20,17 +20,38 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Home
+    output: web, pdf
+
+    folderitems:
+
+    - title: Overview
+      url: /index.html
+      output: web
+
+    - title: Background
+      url: /index.html#background
+      output: web
+
+    - title: Resources
+      url: /index.html#resources
+      output: web
+
   - title: Metadata Convention for Passive Acoustic Recording
     output: web, pdf
 
     folderitems:
 
+    - title: Overview
+      url: /metadata-convention.html
+      output: web
+
     - title: Introduction
-      url: /index.html#introduction
+      url: /metadata-convention.html#introduction
       output: web
 
     - title: Background
-      url: /index.html#background
+      url: /metadata-convention.html#background
       output: web
 
       subfolders:
@@ -41,15 +62,15 @@ entries:
         subfolderitems:
 
         - title: Mission / project metadata
-          url: /index.html#mission--project-metadata
+          url: /metadata-convention.html#mission--project-metadata
           output: web
 
         - title: Platform metadata
-          url: /index.html#platform-metadata
+          url: /metadata-convention.html#platform-metadata
           output: web
 
         - title: Recording equipment metadata
-          url: /index.html#recording-equipment-metadata
+          url: /metadata-convention.html#recording-equipment-metadata
           output: web
 
       - title: Definition of Attributes for Passive Acoustic Recordings Metadata
@@ -58,21 +79,21 @@ entries:
         subfolderitems:
 
         - title: "Category I: Mission and Project"
-          url: /index.html#category-i--mission-and-project
+          url: /metadata-convention.html#category-i--mission-and-project
           output: web
 
         - title: "Category II: Platform"
-          url: /index.html#category-ii--platform
+          url: /metadata-convention.html#category-ii--platform
           output: web
 
         - title: "Category III: Recording Equipment"
-          url: /index.html#category-iii--recording-equipment-sensor-pre-amplifier-ad-converter-additional-signal-conditioning
+          url: /metadata-convention.html#category-iii--recording-equipment-sensor-pre-amplifier-ad-converter-additional-signal-conditioning
           output: web
 
     - title: ISO 19115 XML Template for NOAA Passive Acoustic Recordings
-      url: /index.html#iso-19115-xml-template-for-noaa-passive-acoustic-recordings
+      url: /metadata-convention.html#iso-19115-xml-template-for-noaa-passive-acoustic-recordings
       output: web
 
     - title: Reference Information
-      url: /index.html#reference-information
+      url: /metadata-convention.html#reference-information
       output: web
