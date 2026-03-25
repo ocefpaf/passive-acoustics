@@ -16,16 +16,17 @@ summary: This is version 1.0 of the SoundCoop hybrid millidecade (HMD) netCDF sp
 
 ## Notes/Caveats
 
-1. The SoundCoop hybrid millidecade (HMD) Specification is a compound profile that builds off of the [**NOAA NCEI NetCDF Templates v2.0**](https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html), meaning the full IOOS Metadata Profile is a combination of the NCEI Templates plus IOOS-specific guidance included in this document, such as:
+1. The SoundCoop hybrid millidecade (HMD) Specification is a compound profile that builds off of the [**NOAA NCEI NetCDF Templates v2.0**](https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html), meaning the full SoundCoop hybrid millidecade specification is a combination of the NCEI Templates plus passive acoustic specific guidance included in this document, such as:
 * attributes that are passive acoustic specific (i.e. additions to the NCEI Templates)
 * attributes where variations exist between the passive acoustic community guidance and the NCEI Templates (e.g. **`platform_vocabulary`**, where NCEI recommendations are specifically disallowed)
 * attributes with a different role in the NCEI Templates; for example, the attribute **`_FillValue`** is **required** by the NCEI Template; however, in the IOOS Profile it is listed as **recommended** only;  conversely the opposite is possible as well
 * attributes with otherwise modified or further qualified meanings/definitions
 
 1. The SoundCoop hybrid millidecade (HMD) Specification doesn't currently define **required** or **recommended** attributes. This standard largely synthesizes existing standards into a specific implementation for sound level metrics.
+1. The IOOS DMAC project Passive Acoustic Monitoring National Cyberinfrastructure Center ([SoundCoop](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-6801)) established daily files containing 1-min hybrid millidecade  (HMD) bands as the standardized metric ([Wall et al., 2025](https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2583505)). This approach is implemented in several ongoing national-scale monitoring efforts.
 
 ## Gold Standard Example Datasets
-* [Example dataset](https://storage.googleapis.com/noaa-passive-bioacoustic/ioos/products/sound_level_metrics/esons/esons_sc_m37_20210314-20210426_hmd/data/ESONS.SC.M37_437221.1.80000_20210314_DAILY_MILLIDEC_MinRes.nc)
+* [Example dataset](https://console.cloud.google.com/storage/browser/_details/noaa-passive-bioacoustic/onms/products/sound_level_metrics/sb01/onms_sb01_20220613-20220826_hmd/data/ONMS_SB01_20220613_67678214.1.48000_20220615_DAILY_MILLIDEC_MinRes.nc;tab=live_object?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22)))
 * [Example in IOOS "ERDDAP Gold Standard" GitHub Repository]()
 
 ## SoundCoop hybrid millidecade (HMD) Specification Attributes
@@ -332,6 +333,8 @@ Attributes:
 ### Example Dataset:
 
 #### Example File:
+
+An example file can be found on Google Cloud storage [here](https://console.cloud.google.com/storage/browser/_details/noaa-passive-bioacoustic/onms/products/sound_level_metrics/sb01/onms_sb01_20220613-20220826_hmd/data/ONMS_SB01_20220613_67678214.1.48000_20220615_DAILY_MILLIDEC_MinRes.nc;tab=live_object?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))).
 
 #### NCML:
 
