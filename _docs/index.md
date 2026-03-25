@@ -42,5 +42,6 @@ with respect to passive acoustic monitoring.
 
 * A Metadata Convention for Passive Acoustic Recording - <{{ site.url }}/passive-acoustics/metadata-convention.html>
 * NCEI's Passive Acoustic Archive Best Practices - <https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561>
+* SoundCoop hybrid millidecade (HMD) netCDF specification - <{{ site.url }}/passive-acoustics/soundcoop-hmd-template-v1-0.html>
 
 

@@ -1,10 +1,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: IOOS Passive Acoustics Convention Home
+topnav_title: IOOS Passive Acoustic Data Management Guidance
 # this appears on the top navigation bar next to the home button
 
-site_title: IOOS GitHub Documentation
+site_title: IOOS Passive Acoustic Data Management Guidance
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: US IOOS
@@ -34,7 +34,7 @@ exclude:
   - theme/pdf-*
   #- theme/
 
-feedback_subject_line: IOOS Passive Acoustics Convention
+feedback_subject_line: IOOS Passive Acoustic Data Guidance
 # subject line prefix for feedback emails
 
 feedback_email: data.ioos@noaa.gov
